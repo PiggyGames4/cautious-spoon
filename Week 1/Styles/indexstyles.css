@@ -1,0 +1,89 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+header  {
+    background-color: white
+}
+
+nav     {
+    background-color: rgb(198, 0, 42);
+    height: 35px;
+}
+
+ul.nav  {
+    list-style-type: none;
+}
+
+li.navli {
+    float: left;
+    border-right: 1px solid #bbb;
+    position: relative;
+}
+  
+li.navli a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(201, 53, 85);
+    text-decoration: underline;
+}
+  
+li.dropdown {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+article     {
+    padding-left: 10px;
+    width: 55%;
+}
+
+a.foot   {
+    color: white;
+    text-decoration: none;
+
+}
+
+ul.footer   {
+    list-style-type: none;
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    background-color: rgb(198, 0, 42);
+    color: white;
+    width: 100%;
+    padding-left: 10px;
+}
